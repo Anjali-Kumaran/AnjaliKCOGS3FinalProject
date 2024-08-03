@@ -1,0 +1,154 @@
+/* External stylesheet for Anjali Kumaran's Portfolio */
+
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+/* Title Section */
+#title {
+    background: linear-gradient(135deg, #8738dc 0%, #4a7cd1 100%);
+    color: #fff;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    border-radius: 50%;
+    max-width: 300px;
+    padding: 5%;
+}
+
+/* Cool formatting for h1 */
+h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    color: #333;
+    padding: 5% 0;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 2%;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #e4e4e4;
+    padding: 5% 0;
+    text-align: center;
+}
+
+#projects h2 {
+    margin-bottom: 2%;
+}
+
+#projects .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#projects h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* Resume Section */
+#resume {
+    background-color: #fff;
+    color: #333;
+    padding: 5% 0;
+    text-align: center;
+}
+
+#resume .btn {
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e4e4e4;
+    padding: 5% 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+/* Footer Section */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2% 0;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Media Queries */
+@media(max-width: 1028px) {
+    .title-image {
+        width: 80%;
+    }
+
+    .container-fluid {
+        padding: 5% 10%;
+    }
+
+    #projects .col-lg-4 {
+        margin-bottom: 20px;
+    }
+}
